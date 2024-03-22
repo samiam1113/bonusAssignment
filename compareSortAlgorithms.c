@@ -167,7 +167,7 @@ void bubbleSort(int* pData, int n){
 // extraMemoryAllocated counts bytes of extra memory allocated
 void selectionSort(int* pData, int n){	
 	
-	int i, j, min_idx, temp;
+	int i, j, min_idx, temp; 
 	//move boundaries
 	for (i = 0; i < n-1; i++){
 		//min element set to first index
